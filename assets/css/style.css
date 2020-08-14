@@ -4,9 +4,32 @@
     box-sizing: border-box;
 }
 
-header {
-    background: stretch;
-    background-color: teal;
+.header {
+    background-color: rgb(101, 146, 214);
     display: flex;
-    margin: 5px
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    margin: 20px;
+    border: solid 5px;
+    border-radius: 25px;
+}
+
+.name {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: rgb(5, 27, 25);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: 25px 0;
+    border: 25px 25px 10px 10px;
+    text-shadow: 5px 10px 20px rgb(34, 3, 3);
+}
+
+
+
+.hero {
+    background-image: url("/assets/images/mountains.jpg");
 }
