@@ -1,14 +1,21 @@
-/*  {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: skyblue;
-} 
-*/
+* {
+    box-sizing: border-box
+}
+
+:root {
+    --main-color: rgb(127, 189, 214);
+    --heading-color: rgb(4, 68, 63);
+    --hover-color: rgb(34, 3, 3);
+}
 
 /* HEADER START */
+header {
+    position: sticky;
+    top: 0;
+}
+
 .header {
-    background-color: skyblue;
+    background-color: var(--main-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -16,40 +23,38 @@
     align-content: center;
     border: solid 5px;
     border-radius: 0 0 25px 25px;
-    position: sticky;
-    top: 0;
+
 }
 
 header h1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    color: rgb(5, 27, 25);
+    color: var(--heading-color);
     font-weight: lighter;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 45px;
     margin: 25px;
     border: 25px;
-    text-shadow: 10px 5px 25px rgb(34, 3, 3);
+    text-shadow: 10px 5px 25px var(--hover-color);
 }
 
 header nav {
     display: flex;
-    flex-flow: column wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
     margin: 0 0 0 50px;
 }
 
 .header li:hover {
-    background-color: rgb(65, 13, 13);
+    background-color: var(--hover-color);
 }
 
 .header a:hover {
     color: whitesmoke;
-    transition: color 1s;
+    transition: color 0.5s;
 }
-
-
 
 header li {
     display: flex;
@@ -62,7 +67,7 @@ header li {
 
 header a {
     text-decoration: none;
-    color: rgb(5, 68, 68);
+    color: var(--heading-color);
     font-weight: bolder;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -85,6 +90,18 @@ header a {
     right: 0;
 }
 
+.hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: ;
+}
+
+.hero-text p {
+
+}
+
 /* HERO END*/
 
 /* BIO START */
@@ -95,8 +112,8 @@ header a {
     justify-content: center;
 }
 
-.about-me img {
-    background-size: 50%;
+.bio img {
+    border-radius: 40%;
 }
 
 /* BIO END */
@@ -114,10 +131,19 @@ header a {
     margin: 10px;
 }
 
-section h2 {
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    border-bottom: 10px;
+    color: var(--heading-color);
     padding: 10px;
     margin: 10px;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    /*border-radius: 25%;*/
 }
 
 .projects a {
