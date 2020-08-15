@@ -23,7 +23,7 @@ header h1 {
     color: rgb(5, 27, 25);
     font-weight: lighter;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 5vw;
+    font-size: 45px;
     margin: 25px;
     border: 25px;
     text-shadow: 10px 5px 25px rgb(34, 3, 3);
@@ -49,11 +49,10 @@ header a {
     text-decoration: none;
     color: rgb(5, 68, 68);
     font-weight: bolder;
-    font-size: 1.5vw;
+    font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 5px;
 }
-
 
 .hero {
     background-image: url("/assets/images/mountains.jpg");
