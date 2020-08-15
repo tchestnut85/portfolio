@@ -1,10 +1,12 @@
-* {
+/*  {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: skyblue;
-}
+} 
+*/
 
+/* HEADER START */
 header {
     background-color: skyblue;
     display: flex;
@@ -14,6 +16,7 @@ header {
     align-content: center;
     border: solid 5px;
     border-radius: 0 0 25px 25px;
+    /*position: fixed;*/
 }
 
 header h1 {
@@ -53,7 +56,60 @@ header a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 5px;
 }
+/* HEADER END */
 
-.hero {
-    background-image: url("/assets/images/mountains.jpg");
+/* HERO START */
+.fuji-pic { 
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    /* background-image: url("/assets/images/fuji.jpg");*/
+    background-size: cover;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
+
+/* HERO END*/
+
+/* BIO START */
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+
+.about-me img {
+    background-size: 50%;
+}
+
+/* BIO END */
+
+/* PROJECT START */
+/* PROJECTS END */
+
+/* CONTACT START */
+/*CONTACT END */
+
+/* UTILITY STYLES START */
+.text-style {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+section h2 {
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.projects a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+/* UTILITY STYLES END */
