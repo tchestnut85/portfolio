@@ -295,6 +295,10 @@ h3 {
         height: 15vh;
     }
 
+    .contact-me li {
+        margin: 5px;
+    }
+
 @media screen and (max-width: 375px) { /* MED MOBILE SIZE */
     
     .header h1 {
