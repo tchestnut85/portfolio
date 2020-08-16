@@ -129,6 +129,32 @@ header a {
 /* BIO END */
 
 /* PROJECT START */
+/* .grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat (6, 1fr);
+    grid-template-rows: repeat (6, 1fr);
+    grid-gap: 20px;
+
+}
+
+.grid-item {
+    display: flex;
+    border: 5px solid black;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-item img {
+    width: 250px;
+    height: 250px;
+}
+
 /* PROJECTS END */
 
 /* CONTACT START */
