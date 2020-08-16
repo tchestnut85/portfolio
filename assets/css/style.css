@@ -36,7 +36,7 @@ header h1 {
     font-size: 55px;
     margin: 25px;
     border: 25px;
-    text-shadow: 10px 5px 25px var(--hover-color);
+    text-shadow: 10px 5px 25px black;
 }
 
 header nav {
@@ -44,7 +44,7 @@ header nav {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0 0 0 50px;
+    /* margin: 0 0 0 50px; */
 }
 
 .header li:hover {
@@ -82,7 +82,7 @@ header a {
     width: 100%;
     height: 100%;
     /*background-image: "/assets/images/fuji.jpg");*/
-    background-size: cover;
+    background-size: auto;
     opacity: 0.5;
     top: 0;
     left: 0;
@@ -94,6 +94,7 @@ header a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: var(--heading-color);
+    text-align: center;
 }
 
 .hero-text {
@@ -109,7 +110,7 @@ header a {
 
 .hero-text p {
     color: var(--heading-color);
-    font-weight: bolder;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -129,39 +130,47 @@ header a {
 /* BIO END */
 
 /* PROJECT START */
+
 /* .grid-wrapper {
     display: flex;
-    width: 100%;
-    justify-content: center;
-}
-*/
+    flex-wrap: wrap;
+} */
+
 .grid-container {
     display: grid;
+    flex-wrap: wrap;
+    margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
     /* grid-auto-flow: dense; */
 }
 
 .grid-item {
     display: flex;
+    flex-wrap: wrap;
+    /* margin: 0 auto; */
     border: 5px solid var(--hover-color);
+    border-radius: 5%;
     flex-direction: column;
     align-items: center;
     padding: 10px;
 }
 
 .grid-item img {
-    /*display: flex;
-    flex-wrap: wrap;*/
+    display: flex;
+    flex-wrap: wrap;
     width: 250px;
     height: 250px;
     border: 3px solid var(--heading-color);
-
+    border-radius: 20px;
 }
 
 .grid-1 {
+    display: flex;
+    flex-wrap: wrap;
     grid-column: 1 / span 2;
+    border-radius: 10px;
 }
 
 .grid-1 img {
@@ -171,19 +180,31 @@ header a {
 /* PROJECTS END */
 
 /* CONTACT START */
-.contact-me div {
+.contact-me {
     display: flex;
     flex-wrap: wrap;
-    text-decoration: none;
-    /* display: inline-block; */
-    width: 100%;
-    margin: auto;
 }
 
 .contact-me ul {
-    list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    /* display: inline-block; */
+    width: 100%;
+    padding: 25px;
+    margin: auto;
+    list-style: none;
     justify-content: space-around;
+}
+
+.contact-me a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.contact-me a:hover {
+    color: var(--hover-color);   
+    transition: color 0.5s;
 }
 
 /*CONTACT END */
@@ -195,7 +216,11 @@ header a {
     font-weight: bolder;
     padding: 10px;
     margin: 10px;
-    /* text-decoration: none; */
+    text-decoration: none;
+}
+
+h3 {
+    text-shadow: 10px 5px 25px black;
 }
 
 .heading {
@@ -217,13 +242,120 @@ header a {
 .image {
     height: 200px;
     width: 200px;
-    /*border-radius: 25%;*/
+    border-radius: 25%;
 }
 
 .projects a {
     font-family: Arial, Helvetica, sans-serif;
-    color: green;
+    /* color: green; */
 }
 /* UTILITY STYLES END */
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES START */
+
+@media screen and (max-width: 768px) { /* TABLET SIZE */
+    
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 2px;
+    }
+    
+    .hero-text {
+        margin: 0;
+    }
+
+    /* .grid-item img { 
+        width: 50%;
+        height: 50%;
+    } */
+    
+@media screen and (max-width: 425px) { /* LARGE MOBILE SIZE */
+    
+    .header nav ul {
+        margin-right: 40px;
+    }
+    
+    .hero-text {
+        margin: 0;
+    }
+
+    .hero-text p {
+        padding: 12px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 2px;
+    }
+
+    .grid-item img {
+        width: 35vw;
+        height: 15vh;
+    }
+
+@media screen and (max-width: 375px) { /* MED MOBILE SIZE */
+    
+    .header h1 {
+        font-size: 45px;
+    }
+
+    .hero-heading {
+        font-size: 30px;
+    }
+    
+    .hero-text {
+        margin: 0;
+    }
+
+    .hero-text p {
+        padding: 10px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+    }
+
+    .grid-item {
+        padding-right: 5px;
+    }
+
+    .grid-item img {
+        width: 35vw;
+        height: 15vh;
+    }
+
+    .contact-me li {
+        font-size: 15px;
+        margin: 5px;
+    }
+
+@media screen and (max-width: 320px) { /* SMALL MOBILE SIZE */
+    
+    .header h1 {
+         font-size: 40px;
+    }
+
+    .hero-text {
+        margin: 0;
+    }
+        
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    
+    .grid-item {
+        padding-right: 0;
+    }
+
+    .grid-item img {
+        width: 35vw;
+        height: 15vh;
+    }
+    
+
+}
