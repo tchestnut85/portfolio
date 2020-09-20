@@ -88,7 +88,7 @@ header a {
     z-index: -1;
     width: 100%;
     height: 100%;
-    background-image: "/assets/images/fuji.jpg");
+    background-image: "/assets/images/fuji.jpg";
     background-size: contain;
     opacity: 0.5;
     top: 0;
