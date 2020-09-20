@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+}
+
+/* :root {
+    --main-color:
+    --heading-color: 
+    --hover-color: 
+    --heading-background: 
+} */
+
+/* HEADER START */
+/* header { 
+    position: sticky;
+    top: 0;
+} */
+
+.nav-wrapper ul {
+    margin-right: 50px;
+}
+
+.nav-wrapper a {
+    font-size: 20px;
+}
+
+.brand-logo {
+    margin-left: 25px;
+}
+
+.hero {
+    background-image: url("../images/space.jpg");
+    background-size: cover;
+    /* background-position: 80%; */
+    /* background-attachment: fixed; */
+    /* display: flex;
+    justify-content: space-between; */
+    flex-wrap:wrap;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.hero-display {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    width: 200px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.hero-bio {
+    font-size: 25px;
+}
+
+.main-font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* .hero-text {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/*
+header styles start
+header {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadoW: none;
+} */
+/* header style end */
+
+/* MEDIA QUERIES START */
+
+/* TABLET SIZE
+@media screen and (max-width: 768px) { 
+    
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 2px;
+    }
+    
+    .hero-text {
+        margin: 0;
+    }
+}
+
+/* LARGE MOBILE SIZE */
+/* @media screen and (max-width: 425px) { 
+    
+    .header nav ul {
+        margin-right: 40px;
+    }
+    
+    .hero-text {
+        margin: 0;
+    }
+
+    .hero-text p {
+        padding: 12px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 2px;
+    }
+
+    .grid-item img {
+        width: 35vw;
+        height: 15vh;
+    }
+
+    .contact-me li {
+        margin: 5px;
+    }
+} */
+
+/* MED MOBILE SIZE */
+/* @media screen and (max-width: 375px) { 
+    
+    .header h1 {
+        font-size: 45px;
+    }
+
+    .hero-heading {
+        font-size: 30px;
+    }
+    
+    .hero-text {
+        margin: 0;
+    }
+
+    .hero-text p {
+        padding: 10px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+    }
+
+    .grid-item {
+        padding-right: 5px;
+    }
+
+    .grid-item img {
+        width: 35vw;
+        height: 15vh;
+    }
+
+    .contact-me li {
+        font-size: 15px;
+        margin: 5px;
+    }
+} */
+
+/* SMALL MOBILE SIZE */
+/* @media screen and (max-width: 320px) { 
+    
+    .header h1 {
+         font-size: 40px;
+    }
+
+    .hero-text {
+        margin: 0;
+    }
+        
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    
+    .grid-item {
+        padding-right: 0;
+    }
+
+    .grid-item img {
+        width: 35vw;
+        height: 15vh;
+    }  
+}  */

@@ -2,11 +2,14 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
         integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
         crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style2.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tom Chestnut's Portfolio</title>
@@ -15,58 +18,52 @@
 <body>
     <!-- HEADER START -->
     <header>
-        <div class="header">
-            <h1>my portfolio</h1>
-            <nav class="nav-wrap">
-                <ul class="list">
-                    <li>
-                        <a href="#about-me">about me</a>
-                    </li>
-                    <li>
-                        <a href="#projects">my projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact">contact me</a>
-                    </li>
-                </ul>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper cyan darken-3">
+                    <span class="brand-logo main-font">Tom Chestnut</span>
+                    <ul class="right center hide-on-med-and-down main-font">
+                        <li>
+                            <a href="#about-me">about me</a>
+                        </li>
+                        <li>
+                            <a href="#projects">my projects</a>
+                        </li>
+                        <li>
+                            <a href="#contact">contact me</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
 
-    <main>
+    <main class="cyan darken-2">
         <!-- HERO START -->
-        <section id="hero">
-            <div class="hero-cta text-style">
-                <img class="hero-pic" src="./assets/images/space.jpg" />
-                <div class="hero-text">
-                    <h2 class="hero-heading">Hi! I'm Tom.</h2>
-                    <p>I'm an aspiring Full Stack Web Developer from Philadelphia. Thanks for checking out my
-                        portfolio.<br />Read about me and some of my projects below!</p>
+        <section class="hero cyan darken-2">
+            <div class="row valign-wrapper hero-display">
+                <div class="col hero-pic center-align">
+                    <img class="image" src="./assets/images/tc.jpg" alt="Picture of Tom Chestnut" />
+                    <h4 class="hero-heading white-text center-align main-font">Tom Chestnut</h4>
+                </div>
+                <div class="col hero-info">
+                    <p class="hero-bio white-text center-align main-font">Full Stack Web Developer in the Greater Philadelphia area.<br/>Read about me and my projects below.</p>
                 </div>
             </div>
         </section>
         <!-- HERO END -->
 
         <!-- BIO START -->
-        <section id="about-me">
+        <section class="cyan darken-2" id="about-me">
             <h3 class="heading">About Me</h3>
 
-            <div class="bio text-style content">
-                <img class="image" src="./assets/images/tc.jpg" alt="Picture of Tom Chestnut" />
+            <div class="bio">
                 <p>
-                    Thank you for visiting my portfolio! I currently live in the Greater Philadelphia area and work
-                    full-time in Philadelphia and I am a student of the University of Pennsylvania LPS Full Stack Coding
+                    Thank you for visiting my portfolio! I currently live in the Greater Philadelphia area and I am a student of the University of Pennsylvania LPS Full Stack Coding
                     Boot Camp.
                 </p>
                 <p>
-                    I graduated from Temple University with a Bachelor’s Degree in Environmental Studies and have been
-                    working in various EHS roles in the pharmaceutical industry since then. My goal is to become a
-                    proficient full stack web developer and shift my career to web development.
-                </p>
-                <p>
-                    Outside of my studies and work I live with my beautiful wife Melissa and our six year old pug named
-                    Frodo. We enjoy hiking with Frodo and we try to take trips traveling abroad when we can. At home in
-                    my downtime I enjoy playing video games like Skyrim, Legend of Zelda and (too) many others.
+                    Info about technical skills here.
                 </p>
             </div>
         </section>
@@ -75,9 +72,7 @@
         <!-- PROJECTS START -->
         <section id="projects">
             <h3 class="heading">My Projects</h3>
-            <div class="grid-wrapper text-style content">
-
-
+            <div class="grid-wrapper">
                 <div class="grid-container">
 
                     <div class="grid-item grid-1">
@@ -135,7 +130,10 @@
         </div>
     </footer>
     <!-- CONTACT END -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+        integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q=="
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
