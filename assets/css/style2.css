@@ -32,7 +32,7 @@
 .hero {
     background-image: url("../images/space.jpg");
     background-size: cover;
-    /* background-position: 80%; */
+    background-position: center;
     /* background-attachment: fixed; */
     /* display: flex;
     justify-content: space-between; */
@@ -53,12 +53,43 @@
     border-radius: 50%;
 }
 
-.hero-bio {
+.hero-text {
     font-size: 25px;
+}
+
+.bio {
+    padding-right: 15rem;
+    padding-left: 15rem;
+}
+
+.line-height {
+    line-height: 2;
+}
+
+.project-img {
+    vertical-align: middle;
+}
+
+/* .grid-item {
+    border: solid black 5px;
+} */
+
+.link:hover {
+    color: black;
+}
+
+.divider {
+margin-right: 300px;
+margin-left: 300px;
 }
 
 .main-font {
     font-family: 'Open Sans', sans-serif;
+}
+
+.card-action a:hover {
+    color: black;
+    transition: color 0.5s;
 }
 
 /* .hero-text {
