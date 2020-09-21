@@ -67,7 +67,9 @@
 }
 
 .project-img {
-    vertical-align: middle;
+    height: 300px;
+    position: fixed;
+    overflow: hidden;
 }
 
 /* .grid-item {
@@ -91,6 +93,17 @@ margin-left: 300px;
     color: black;
     transition: color 0.5s;
 }
+
+.project-title {
+    opacity: 0.9;
+    margin: 15px;
+    padding: 10px !important;
+    border-radius: 300px;
+}
+
+/* .project-info {
+    padding: inherit;
+} */
 
 /* .hero-text {
     display: flex;
