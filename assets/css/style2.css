@@ -72,6 +72,14 @@
     overflow: hidden;
 }
 
+.project-link {
+    color: white !important;
+}
+
+.project-link:hover {
+    color: black !important;
+}
+
 /* .grid-item {
     border: solid black 5px;
 } */
@@ -99,6 +107,10 @@ margin-left: 300px;
     margin: 15px;
     padding: 10px !important;
     border-radius: 300px;
+}
+
+.project-title:hover {
+    opacity: 1;
 }
 
 /* .project-info {
