@@ -1,12 +1,10 @@
 # Tom Chestnut's Portfolio
 
 ## About My Portfolio:
-This website is a portfolio linking to projects I have created or worked on. I am currently taking University of Pennsylvania LPS Full Stack Coding Bootcamp and many of these websites were created or worked on for the Bootcamp. I will be creating personal projects very soon so please check back later.
-
-Feel free to browse and let me know if you would like to collaborate on any projects together!
+This is my portfolio linking to projects I have created or worked on. I am currently taking University of Pennsylvania's LPS Full Stack Coding Bootcamp and these projects were created as lessons and homework assignments.
 
 ## Languages Used:
-These webpages and applications have been created using HTML, CSS and JavaScript so far. As I learn additional languages, I'll take on new projects using them.
+These webpages and applications have been created mostly using HTML, CSS and JavaScript.
 
 ### Accessing my portfolio webpage:
 

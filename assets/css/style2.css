@@ -4,30 +4,76 @@
     padding: 0px
 }
 
-/* :root {
-    --main-color:
-    --heading-color: 
-    --hover-color: 
-    --heading-background: 
-} */
-
 /* HEADER START */
-/* header { 
+header { 
     position: sticky;
     top: 0;
+}
+ 
+/* .header {
+    /* background-color: var(--main-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-bottom: solid 1px;
+}  */
+
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 35px;
+    padding-left: 25px;
+}
+
+.nav-links {
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+/* .list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin: 0 0 0 50px; 
 } */
 
-.nav-wrapper ul {
-    margin-right: 50px;
+/* .header li:hover {
+    background-color: var(--hover-color);
+} */
+
+/* .header a:hover { 
+    color: whitesmoke; 
+    transition: color 0.5s; 
+} */
+
+header li {
+    /* display: flex; */
+    /* flex-flow: column wrap; */
+    align-items: center;
+    /* border: solid 2px;
+    border-radius: 15px; */
+    /* margin: 10px; */
+    list-style-type: none;
 }
 
-.nav-wrapper a {
-    font-size: 20px;
+header a {
+    text-decoration: none;
+    color: var(--heading-color);
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    /* margin: 5px 5px; */
 }
+/* HEADER END */
 
-.brand-logo {
-    margin-left: 25px;
-}
 
 .hero {
     background-image: url("../images/space.jpg");
