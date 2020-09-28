@@ -91,6 +91,12 @@ header a {
 
 .project-link:hover {
     color: black !important;
+    transition: color 0.5s;
+}
+
+.coop-link:hover {
+    color: black !important;
+    transition: color 0.5s;
 }
 
 /* .grid-item {
@@ -99,6 +105,7 @@ header a {
 
 .link:hover {
     color: black;
+    transition: color 0.5s;
 }
 
 .divider {
@@ -127,16 +134,31 @@ margin-left: 300px;
 }
 
 .contact-container {
-    padding-bottom: 50px;
+    padding-bottom: 75px;
+}
+
+.contact-section {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .contact-links {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
+.contact-links span {
+    font-size: 20px;
+}
+
+.contact-links:hover {
+    color: black !important;
+    transition: color 0.5s;
+}
 
 
 /* MEDIA QUERIES START */
