@@ -137,13 +137,34 @@ margin-left: 300px;
     padding-bottom: 75px;
 }
 
-.contact-section {
+.contact-section, .skill-section {
     padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.skill-icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill {
+    width: 40px;
+    height: 40x;
+    border-radius: 4px;
+    color: white;
+}
+
+/* .mat-skill {
+    width: 40px;
+    height: 40x; 
+    border-radius: 4px;
+    background-color: white;
+} */
 
 .contact-links {
     display: flex;
