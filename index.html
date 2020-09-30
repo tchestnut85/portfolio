@@ -19,22 +19,28 @@
 <body>
     <!-- HEADER START -->
     <header class="grey darken-3">
-        <nav class="nav-wrap grey darken-3">
-            <div class="name-wrapper">
-                <span class="name main-font">Tom Chestnut</span>
-            </div>
-            <ul class="main-font nav-links">
-                <li>
-                    <a class="hoverable" href="#about-me">about me</a>
-                </li>
-                <li>
-                    <a class="hoverable" href="#projects">my projects</a>
-                </li>
-                <li>
-                    <a class="hoverable" href="#contact">contact me</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="navbar-fixed">
+            <nav class="nav-wrap grey darken-3">
+                <div class="nav-wrapper name-wrapper">
+                    <span class="name main-font">Tom Chestnut</span>
+                </div>
+                <ul class="main-font nav-links">
+                    <li>
+                        <a class="hoverable" href="#about-me">about me</a>
+                    </li>
+                    <li>
+                        <a class="hoverable" href="#skills">my skills</a>
+                    </li>
+                    <li>
+
+                        <a class="hoverable" href="#projects">my projects</a>
+                    </li>
+                    <li>
+                        <a class="hoverable" href="#contact">contact me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main class="grey darken-3">
@@ -53,9 +59,9 @@
         </section>
         <!-- HERO END -->
 
-        <!-- BIO START -->
-        <section class="section grey darken-3 center-align white-text main-font" id="about-me">
-            <h3 id="about-me" class="heading">About Me</h3>
+        <!-- About Me START -->
+        <section id="about-me" class="anchor section grey darken-3 center-align white-text main-font" id="about-me">
+            <h3 class="heading">About Me</h3>
             <div class="divider"></div>
             <div id="bio-id" class="section bio line-height">
                 <p>
@@ -65,9 +71,9 @@
             </div>
         </section>
 
-        <!-- SKills Section Start-->
-        <section class="section grey darken-2 center-align black-text main-font" id="about-me">
-            <h3 id="about-me" class="heading white-text text-darken-4">Skills</h3>
+        <!-- Skills Section Start-->
+        <section id="skills" class="anchor section grey darken-2 center-align black-text main-font" id="about-me">
+            <h3 class="heading white-text text-darken-4">Skills</h3>
             <div class="divider grey-text text-darken-4"></div>
             <div class="container">
                 <div class="row skill-section white-text">
@@ -121,8 +127,8 @@
         <!-- BIO END -->
 
         <!-- PROJECTS START -->
-        <section class="section grey darken-3 center-align white-text main-font" id="projects">
-            <h3 class="section heading">Projects</h3>
+        <section id="projects" class="anchor section grey darken-3 center-align white-text main-font">
+            <h3 class="section heading">My Projects</h3>
             <div class="divider"></div>
             <div class="section container">
 
@@ -222,26 +228,12 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="row">
-                    <div class="col s12 m6 l6 grid-item">
-                        <img src="./assets/images/project-pics/coming-soon.png
-                                alt="Picture showing the text more coming soon" />"
-                        <p> test</p>
-                    </div>
-                    <div class="col s12 m6 l6 grid-item">
-                        <img src="./assets/images/project-pics/coming-soon.png
-                                alt="Picture showing the text more coming soon" />"
-                        <p> test</p>
-                    </div>
-                </div> -->
             </div>
         </section>
-        <!-- PROJECTS END -->
     </main>
 
     <!-- CONTACT START -->
-    <footer id="contact">
+    <footer id="contact" class="anchor">
         <div class="contact-container page-footer text-style grey darken-2 center-align white-text main-font">
             <h3 class="heading">Contact Me</h3>
             <div class="divider"></div>
