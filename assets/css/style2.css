@@ -68,6 +68,10 @@ header a {
     
 }
 
+.name-text {
+    font-size: 35px;
+}
+
 .image {
     width: 175px;
     height: 175px;
@@ -76,7 +80,7 @@ header a {
 }
 
 .hero-text {
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
@@ -121,6 +125,7 @@ header a {
 .divider {
 margin-right: 300px;
 margin-left: 300px;
+margin-bottom: 1rem;
 }
 
 .main-font {
@@ -150,7 +155,7 @@ margin-left: 300px;
 }
 
 .contact-section {
-    padding-top: 125px;
+    padding-top: 100px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -164,6 +169,11 @@ margin-left: 300px;
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.anchor {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+} 
 
 .skill-icons {
     display: flex;
@@ -187,13 +197,17 @@ margin-left: 300px;
 }
 
 .contact-links span {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .contact-links:hover {
     color: black !important;
     transition: color 0.25s;
 }
+
+/* h3 {
+    padding-bottom: 1.5rem;
+} */
 
 
 /* MEDIA QUERIES START */
@@ -214,20 +228,36 @@ margin-left: 300px;
         font-size: 12px;
     }
 
+    .proj-descrip {
+        font-size: 13px;
+    }
+
+    .contact-links span {
+        font-size: 20px;
+    }
+
+    .divider {
+        margin-right: 75px;
+        margin-left: 75px;
+    }
 }
 
 /* LARGE MOBILE SIZE */
 @media screen and (max-width: 556px) { 
     
     .name {
-        font-size: 12px;
+        font-size: 15px;
         padding-left: 10px;
     }
 
     .nav-links a {
-        font-size: 8px;
+        font-size: 10px;
     }
     
+    .name-text {
+        font-size: 25px;
+    }
+
     .image {
         width: 100px;
         height: 100px;
@@ -235,7 +265,7 @@ margin-left: 300px;
     }
 
     .hero-text {
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .bio {
@@ -244,22 +274,21 @@ margin-left: 300px;
     }
 
     .divider {
-        margin-right: 75px;
-        margin-left: 75px;
+        margin-right: 50px;
+        margin-left: 50px;
     }
-
 } 
 
 /* MED MOBILE SIZE */
 @media screen and (max-width: 376px) { 
     
     .name {
-        font-size: 12px;
+        font-size: 15px;
         padding-left: 5px;
     }
 
     .nav-links a {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .bio {
@@ -286,7 +315,7 @@ margin-left: 300px;
     }
 
     .divider {
-        margin-right: 50px;
-        margin-left: 50px;
+        margin-right: 35px;
+        margin-left: 35px;
     }
 }
