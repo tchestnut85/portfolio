@@ -56,8 +56,16 @@ header a {
     justify-content: space-between; */
     flex-wrap:wrap;
     align-items: flex-start;
-    padding-top: 40px;
-    padding-bottom: 10px;
+    /* padding-top: 40px;
+    padding-bottom: 10px; */
+    padding-top: 6rem;
+    padding-bottom: 11rem;
+}
+
+.hero ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
 }
 
 .hero-display {
@@ -226,6 +234,11 @@ margin-bottom: 1rem;
 
     .nav-links a {
         font-size: 12px;
+    }
+
+    .hero {
+        padding-top: 10rem;
+        padding-bottom: 14rem;
     }
 
     .proj-descrip {
