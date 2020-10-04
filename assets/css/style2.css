@@ -209,7 +209,7 @@ margin-bottom: 1rem;
 }
 
 .contact-links:hover {
-    color: black !important;
+    color: #212121 !important;
     transition: color 0.25s;
 }
 
