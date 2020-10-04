@@ -51,15 +51,12 @@ header a {
     background-image: url("../images/space.jpg");
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
-    /* display: flex;
-    justify-content: space-between; */
     flex-wrap:wrap;
     align-items: flex-start;
-    /* padding-top: 40px;
-    padding-bottom: 10px; */
-    padding-top: 6rem;
-    padding-bottom: 11rem;
+    padding-top: 8rem;
+    padding-bottom: 9rem;
+    height: 100%;
+    min-height: 700px;
 }
 
 .hero ul {
