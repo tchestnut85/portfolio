@@ -51,15 +51,11 @@ header a {
     background-image: url("../images/space.jpg");
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed; */
-    /* display: flex;
-    justify-content: space-between; */
     flex-wrap:wrap;
     align-items: flex-start;
-    /* padding-top: 40px;
-    padding-bottom: 10px; */
-    padding-top: 6rem;
-    padding-bottom: 11rem;
+    padding-top: 20vh;
+    padding-bottom: 35vh;
+    width: 100%;
 }
 
 .hero ul {
@@ -72,8 +68,6 @@ header a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    
 }
 
 .name-text {
@@ -120,10 +114,6 @@ header a {
     color: black !important;
     transition: color 0.5s;
 }
-
-/* .grid-item {
-    border: solid black 5px;
-} */
 
 .link:hover {
     color: black;
@@ -213,10 +203,6 @@ margin-bottom: 1rem;
     transition: color 0.25s;
 }
 
-/* h3 {
-    padding-bottom: 1.5rem;
-} */
-
 
 /* MEDIA QUERIES START */
 
@@ -234,11 +220,6 @@ margin-bottom: 1rem;
 
     .nav-links a {
         font-size: 12px;
-    }
-
-    .hero {
-        padding-top: 10rem;
-        padding-bottom: 14rem;
     }
 
     .proj-descrip {
@@ -280,6 +261,12 @@ margin-bottom: 1rem;
     .hero-text {
         font-size: 15px;
     }
+
+    .hero {
+        padding-top: 25vh;
+        padding-bottom: 40vh;
+    }
+
 
     .bio {
         padding-right: 75px;
