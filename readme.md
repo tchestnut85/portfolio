@@ -7,4 +7,4 @@ This is my portfolio displaying projects I have created and worked on as well as
 
 **[https://tchestnut85.github.io/](https://tchestnut85.github.io/)**.
 
-![Portfolio Screenshot](./assets/images/project-pics/screenshot-1.JPG)
+![Portfolio Screenshot](/assets/images/project-pics/screenshot-1.JPG)
