@@ -8,14 +8,18 @@ html {
     scroll-behavior: smooth;
 }
 
-/* HEADER START */
-/* header { 
-    height: 64px;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-}*/
+/* Utility Classes */
+.divider {
+margin-right: 300px;
+margin-left: 300px;
+margin-bottom: 1rem;
+}
 
+.main-font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER START */
 .nav-wrap {
     display: flex;
     justify-content: space-between;
@@ -45,8 +49,8 @@ header a {
     font-family: 'Open Sans', sans-serif;
     padding: 5px;
 }
-/* HEADER END */
 
+/* Hero Section */
 .hero {
     background-image: url("../images/space.jpg");
     background-size: cover;
@@ -95,6 +99,11 @@ header a {
     line-height: 2;
 }
 
+/* Project Section */
+.description {
+    padding-top: 8px !important;
+}
+
 .project-img {
     height: 300px;
     position: fixed;
@@ -115,22 +124,12 @@ header a {
     transition: color 0.5s;
 }
 
-.link:hover {
+.card-action a:hover {
     color: black;
     transition: color 0.5s;
 }
 
-.divider {
-margin-right: 300px;
-margin-left: 300px;
-margin-bottom: 1rem;
-}
-
-.main-font {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.card-action a:hover {
+.link:hover {
     color: black;
     transition: color 0.5s;
 }
@@ -147,6 +146,7 @@ margin-bottom: 1rem;
     opacity: 1;
 }
 
+/* Contact Section */
 .contact-container {
     padding-top: 100px;
     padding-bottom: 275px;
@@ -160,6 +160,7 @@ margin-bottom: 1rem;
     justify-content: space-evenly;
 }
 
+/* Skills Section */
 .skill-section {
     padding-top: 20px;
     display: flex;
@@ -188,6 +189,7 @@ margin-bottom: 1rem;
     background-color: white;
 }
 
+/* Contact Section */
 .contact-links {
     display: flex;
     flex-direction: column;
