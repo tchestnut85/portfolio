@@ -16,7 +16,6 @@ margin-bottom: 1rem;
 }
 
 .main-font {
-    /* font-family: 'Open Sans', sans-serif; */
     font-family:  'Raleway', sans-serif;
 }
 
@@ -96,6 +95,10 @@ header a {
     padding-left: 250px;
 }
 
+.bio-text {
+    font-size: 20px;
+}
+
 .line-height {
     line-height: 2;
 }
@@ -147,20 +150,6 @@ header a {
     opacity: 1;
 }
 
-/* Contact Section */
-.contact-container {
-    padding-top: 100px;
-    padding-bottom: 275px;
-}
-
-.contact-section {
-    padding-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
 /* Skills Section */
 .skill-section {
     padding-top: 20px;
@@ -184,13 +173,34 @@ header a {
 }
 
 .skill {
-    width: 40px;
+    width: 60px;
     height: 40px;
-    border-radius: 4px;
+    border-radius: 5px;
+}
+
+.fill {
     background-color: white;
+    padding: 0 2px;
+}
+
+.mongoose {
+    padding: 5px 5px;
+    border-radius: 5px;
 }
 
 /* Contact Section */
+.contact-container {
+    padding-top: 100px;
+    padding-bottom: 275px;
+}
+
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .contact-links {
     display: flex;
     flex-direction: column;
@@ -207,6 +217,11 @@ header a {
     color: #212121 !important;
     transition: color 0.25s;
 }
+
+.link-padding {
+    padding-top: 75px;
+}
+
 
 /* MEDIA QUERIES START */
 
@@ -256,7 +271,6 @@ header a {
         font-size: 25px;
     }
 
-
     .hero-text {
         font-size: 15px;
     }
@@ -266,15 +280,18 @@ header a {
         padding-bottom: 40vh;
     }
 
-
     .bio {
         padding-right: 75px;
         padding-left: 75px;
     }
 
-.contact-links {
-    font-size: 40px;
-}
+    .bio-text {
+    font-size: 15px;
+    }
+
+    .contact-links {
+        font-size: 40px;
+    }
 
     .divider {
         margin-right: 50px;
