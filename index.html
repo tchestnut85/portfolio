@@ -12,6 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:title" content="Tom Chestnut - Portfolio" />
@@ -171,9 +175,7 @@
             <h3 class="section heading">My Projects</h3>
             <div class="divider"></div>
             <div class="section container">
-
                 <div class="row">
-
                     <!-- Pass the Page -->
                     <div class="col s12 m6 l6 grid-item">
                         <div class="card medium grey darken-2 hoverable">
@@ -186,10 +188,10 @@
                                         Page</span></a>
                             </div>
                             <div class="description card-content center-align grey darken-2">
-                                <p class="main-font proj-descrip">A full-stack RESTful API app following MVC structure
+                                <p class="main-font proj-descrip">Full-stack RESTful API app following MVC pattern
                                     using
-                                    Express-Session,
-                                    MySQL/Sequelize, and Handlebars as well as NPM Natural and Twitter-API fetches.
+                                    MySQL/Sequelize, Express, Node and Handlebars as well as NPM Natural and Twitter-API
+                                    fetches.
                                 </p>
                             </div>
                             <div class="card-action center-align grey darken-1 white-text">
@@ -210,20 +212,71 @@
                                 <a href="https://cfsylvester.github.io/AniGame/" target="_blank"><span
                                         class="project-title card-title center-align grey darken-3">AniGame</span></a>
                             </div>
-                            <div class="project-info card-content center-align grey darken-2">
-                                <p class="main-font proj-descrip">AniGame app - search video games to find related anime
-                                    using
-                                    multiple server side APIs. A group
-                                    project with
-                                    <a class="coop-link teal-text text-lighten-4"
-                                        href="https://cfsylvester.github.io/clairesylvester.github.io/" target="_blank">
-                                        Claire Sylvester</a>.
+                            <div class="description project-info card-content center-align grey darken-2">
+                                <p class="main-font proj-descrip">Front-end app using fetch on multiple API data
+                                    endpoints based on the user's search input.
+                                    Search video games to find related games and anime.
                                 </p>
                             </div>
                             <div class="card-action center-align grey darken-1 white-text">
                                 <a class="project-link" href="https://cfsylvester.github.io/AniGame/"
                                     target="_blank">See it Here</a>
-                                <a class="project-link" href="https://github.com/CFsylvester/AniGame"
+                                <a class="project-link" href="https://github.com/tchestnut85/AniGame"
+                                    target="_blank">Github Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Social Network API Backend -->
+                    <div class="col s12 m6 l6 grid-item">
+                        <div class="card medium grey darken-2 hoverable">
+                            <div class="card-image">
+                                <img class="medium project-img" src="./assets/images/project-pics/social-network.png"
+                                    alt="Screenshot of Social Network Backend" />
+                                <a href="https://github.com/tchestnut85/social-network" target="_blank"><span
+                                        class="project-title card-title center-align grey darken-3">Social Network
+                                        Backend</span></a>
+                            </div>
+                            <div class="description project-info card-content center-align grey darken-2">
+                                <p class="main-font proj-descrip">
+                                    Back-end portion of a RESTful API for a social network app using MongoDB with
+                                    Mongoose, Node and Express. Users post thoughts and add other users as friends.
+                                </p>
+                            </div>
+                            <div class="card-action center-align grey darken-1 white-text">
+                                <a class="project-link" href="https://youtu.be/NXepIg0EKCs" target="_blank">See a
+                                    Demo</a>
+                                <a class="project-link" href="https://github.com/tchestnut85/social-network"
+                                    target="_blank">Github Repo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Code Zone -->
+                    <div class="col s12 m6 l6 grid-item">
+                        <div class="card medium grey darken-2 hoverable">
+                            <div class="card-image">
+                                <img class="medium project-img" src="./assets/images/project-pics/code-zone.png"
+                                    alt="Screenshot of Code Zone" />
+                                <a href="https://code-zone.herokuapp.com/" target="_blank"><span
+                                        class="project-title card-title center-align grey darken-3">Code Zone</span></a>
+                            </div>
+                            <div class="description project-info card-content center-align grey darken-2">
+                                <p class="main-font proj-descrip">Full-stack RESTful API app using a MySQL database,
+                                    Express, Sequelize, Node and
+                                    Handlebars
+                                    following MVC
+                                    pattern.
+                                    Bcrypt was used
+                                    for authentication.
+                                </p>
+                            </div>
+                            <div class="card-action center-align grey darken-1 white-text">
+                                <a class="project-link" href="https://code-zone.herokuapp.com/" target="_blank">See it
+                                    Here</a>
+                                <a class="project-link" href="https://github.com/tchestnut85/code-zone"
                                     target="_blank">Github Repo</a>
                             </div>
                         </div>
@@ -241,9 +294,10 @@
                                         class="project-title card-title center-align grey darken-3">Weather
                                         App</span></a>
                             </div>
-                            <div class="project-info card-content center-align grey darken-2">
-                                <p class="main-font proj-descrip">Weather Dashboard app using OpenWeatherMap API,
-                                    AJAX
+                            <div class="description project-info card-content center-align grey darken-2">
+                                <p class="main-font proj-descrip">Front-end weather dashboard app. Created using
+                                    OpenWeatherMap API,
+                                    AJAX fetches
                                     and Bootstrap.
                                 </p>
                             </div>
@@ -258,31 +312,32 @@
                         </div>
                     </div>
 
-                    <!-- Coding Quiz -->
+                    <!-- Team Builder -->
                     <div class="col s12 m6 l6 grid-item">
                         <div class="card medium grey darken-2 hoverable">
                             <div class="card-image">
-
-                                <img class="project-img" src="./assets/images/project-pics/coding-quiz.jpg"
-                                    alt="Screenshot of Coding Quiz" />
-                                <a href="https://tchestnut85.github.io/coding-quiz/" target="_blank"><span
-                                        class="project-title card-title center-align grey darken-3">Coding
-                                        Quiz</span></a>
+                                <img class="medium project-img" src="./assets/images/project-pics/team-builder.png"
+                                    alt="Screenshot of Team Builder app" />
+                                <a href="https://github.com/tchestnut85/team-builder" target="_blank"><span
+                                        class="project-title card-title center-align grey darken-3">Team
+                                        Builder</span></a>
                             </div>
-                            <div class="card-content center-align grey darken-2">
-                                <p class="main-font proj-descrip">Coding Quiz - a coding trivia quiz using JavaScript
-                                    and a timer for scoring.</p>
+                            <div class="description project-info card-content center-align grey darken-2">
+                                <p class="main-font proj-descrip">Create a custom Team Profile webpage. Backend app made
+                                    with OOP, Node.js, Inquirer.js, and Jest for TDD.
+                                </p>
                             </div>
                             <div class="card-action center-align grey darken-1 white-text">
-                                <a class="project-link" href="https://tchestnut85.github.io/coding-quiz/"
-                                    target="_blank">See it
-                                    Here</a>
-                                <a class="project-link" href="https://github.com/tchestnut85/coding-quiz/"
-                                    target="_blank">Github Repo</a>
+                                <a class="project-link"
+                                    href="https://drive.google.com/file/d/17Rn8EwEGaD9NddtqaF6pLBL1d8c4isjb/view?usp=sharing"
+                                    target="_blank">See a
+                                    Demo</a>
+                                <a class="project-link" href="https://github.com/tchestnut85/team-builder"
+                                    target="_blank">Github
+                                    Repo</a>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
