@@ -152,11 +152,11 @@ header a {
 
 /* Skills Section */
 .skill-section {
-    padding-top: 20px;
+    padding: 20px 150px 0 150px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .anchor {
@@ -169,23 +169,15 @@ header a {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    margin: 25px 0;
+    margin: 25px 50px;
 }
 
 .skill {
     width: 60px;
     height: 40px;
     border-radius: 5px;
-}
-
-.fill {
     background-color: white;
-    padding: 0 2px;
-}
-
-.mongoose {
     padding: 5px 5px;
-    border-radius: 5px;
 }
 
 /* Contact Section */
@@ -241,6 +233,10 @@ header a {
         font-size: 12px;
     }
 
+    .skill-section {
+        padding: 20px 50px 0 50px;
+    }
+
     .proj-descrip {
         font-size: 13px;
     }
@@ -287,6 +283,14 @@ header a {
 
     .bio-text {
     font-size: 15px;
+    }
+
+    .skill-section {
+        padding: 0 0;
+    }
+
+   .skill-icons {
+        margin: 25px 25px;
     }
 
     .contact-links {
