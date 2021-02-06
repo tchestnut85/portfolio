@@ -159,6 +159,14 @@ header a {
     justify-content: center;
 }
 
+.front-end, .back-end {
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .anchor {
     padding-top: 3rem;
     padding-bottom: 3rem;
