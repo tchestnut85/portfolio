@@ -93,6 +93,7 @@ header a {
 .bio {
     padding-right: 250px;
     padding-left: 250px;
+    text-align: left;
 }
 
 .bio-text {
