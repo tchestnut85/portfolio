@@ -96,7 +96,7 @@ header a {
     text-align: left;
 }
 
-.bio-text {
+.bio-text, .resume-section {
     font-size: 20px;
 }
 
@@ -160,7 +160,7 @@ header a {
     justify-content: center;
 }
 
-.front-end, .back-end {
+.front-end, .back-end, .resume-section {
     margin-bottom: 25px;
     display: flex;
     flex-wrap: wrap;
