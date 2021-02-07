@@ -32,9 +32,12 @@
         <div class="navbar-fixed">
             <nav class="nav-wrap grey darken-3">
                 <div class="nav-wrapper name-wrapper">
-                    <span class="name main-font">Tom Chestnut</span>
+                    <a href='#'><span class="name main-font">Tom Chestnut</span></a>
                 </div>
-                <ul class="main-font nav-links">
+                <!-- <a href="#" data-target="nav-dropdown" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+                <a class="hide-on-large-only dropdown-trigger pulse" data-target="nav-dropdown"><i
+                        class="material-icons right">arrow_drop_down</i></a>
+                <ul class="main-font nav-links hide-on-med-and-down">
                     <li>
                         <a class="hoverable" href="#about-me">about</a>
                     </li>
@@ -42,7 +45,6 @@
                         <a class="hoverable" href="#skills">skills</a>
                     </li>
                     <li>
-
                         <a class="hoverable" href="#projects">projects</a>
                     </li>
                     <li>
@@ -50,6 +52,20 @@
                     </li>
                 </ul>
             </nav>
+            <ul class="dropdown-content grey darken-2 white-text" id="nav-dropdown">
+                <li>
+                    <a class="white-text" href="#about-me">about</a>
+                </li>
+                <li>
+                    <a class="white-text" href="#skills">skills</a>
+                </li>
+                <li>
+                    <a class="white-text" href="#projects">projects</a>
+                </li>
+                <li>
+                    <a class="white-text" href="#contact">contact</a>
+                </li>
+            </ul>
         </div>
     </header>
 
@@ -405,6 +421,16 @@
         </div>
     </footer>
     <!-- CONTACT END -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".dropdown-trigger").dropdown({ hover: false, coverTrigger: false });
+        });
+    </script>
 </body>
 
 </html>

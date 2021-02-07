@@ -57,7 +57,7 @@ header a {
     background-position: center;
     flex-wrap:wrap;
     align-items: flex-start;
-    padding-top: 20vh;
+    padding-top: 10vh;
     padding-bottom: 35vh;
     width: 100%;
 }
@@ -82,7 +82,7 @@ header a {
 }
 
 .image {
-    width: 35%;
+    width: 25%;
     height: 35%;
     margin: 2vh 0;
     border-radius: 2.5%;
@@ -235,6 +235,10 @@ header a {
 /* TABLET SIZE */
 @media screen and (max-width: 768px) { 
     
+    .image {
+        width: 55%;
+    }
+
     .bio {
         padding-right: 100px;
         padding-left: 100px;
@@ -291,8 +295,8 @@ header a {
     }
 
     .hero {
-        padding-top: 25vh;
-        padding-bottom: 40vh;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
     }
 
     .bio {
