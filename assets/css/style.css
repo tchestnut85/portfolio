@@ -75,19 +75,25 @@ header a {
 }
 
 .name-text {
-    font-size: 35px;
+    padding: 15px;
+    font-size: 45px;
+    /* background-color: rgba(97, 97, 97, 0.5); */
+    border-radius: 5px;
 }
 
 .image {
     width: 35%;
     height: 35%;
-    margin: 6vh 0;
+    margin: 2vh 0;
     border-radius: 2.5%;
 }
 
 .hero-text {
-    font-size: 25px;
+    font-size: 35px;
+    padding: 15px;
     margin-bottom: 20px;
+    /* background-color: rgba(97, 97, 97, 0.7); */
+    border-radius: 5px;;
 }
 
 .bio {
@@ -263,6 +269,10 @@ header a {
 /* LARGE MOBILE SIZE */
 @media screen and (max-width: 556px) { 
     
+    .image {
+        width: 65%;   
+    }
+
     .name {
         font-size: 15px;
         padding-left: 10px;
@@ -273,11 +283,11 @@ header a {
     }
     
     .name-text {
-        font-size: 25px;
+        font-size: 35px;
     }
 
     .hero-text {
-        font-size: 15px;
+        font-size: 30px;
     }
 
     .hero {
